@@ -1,0 +1,1 @@
+['Request', 'Change'].includes(issue.issueType.name) && ['Done', 'Canceled'].includes(issue.status.name)
