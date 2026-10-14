@@ -1,0 +1,6 @@
+issue.issueType.name == 'Request'
+|| (
+  ['Change', 'Sub Change'].includes(issue.issueType.name)
+  && issue.customfield_18266 != null
+  && (issue.customfield_18195 == null || issue.customfield_18195.value != 'שינוי אב')
+)
